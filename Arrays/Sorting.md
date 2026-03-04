@@ -20,7 +20,7 @@ Bubble Sort, as far as I'm aware, is the slowest sorting algorithm. It's the mos
 It's why I started with this. Had I started with Heap Sort, I would probably not want to continue because of how much more complex that is in 
 comparison.
 
-
+Idea - Compare adjacent indices. If the current index is greater than the next index, swap them so that the current index goes closer to the end position of the array.
 
 ```
 import random
@@ -63,6 +63,12 @@ Worst - O(n^2)
 Now, this may be difficult to understand intuitively, so this is how I picture it. The algorithm works to put the **highest element at the top** after every iteration. We can say for sure that, the last position in the array will be filled with the highest element in the array after all of the traversals. 
 
 Therefore, if we traversed 'n - 1' times, we could sort 'n - 1' elements from beginning to end. Pretty simple when it's layed out like that.
+
+## Insertion Sort
+
+This was pretty confusing to me at first, but I think this is best understood by performing manual dry runs. I enjoy this one though, it's very interesting. It doesn't immediately make sense why it works, but after reading this, it'll make sense.
+
+
 
 
 
