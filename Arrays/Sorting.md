@@ -20,6 +20,32 @@ Bubble Sort, as far as I'm aware, is the slowest sorting algorithm. It's the mos
 It's why I started with this. Had I started with Heap Sort, I would probably not want to continue because of how much more complex that is in 
 comparison
 
+```
+import random
+
+class SortingTechniques:
+    def testingTheClass(arr):
+        return arr
+    
+    def bubbleSort(arr):
+        curr = len(arr) - 1
+        while curr >= 1:
+            for i in range(0, curr):
+                if arr[i + 1] < arr[i]:
+                    arr[i], arr[i + 1] = arr[i + 1], arr[i]
+            curr -= 1
+        return arr      
+    
+            
+        
+        
+# An array defined for sorting 
+arr = [random.randint(1, 100) for _ in range(5)]
+
+print(SortingTechniques.testingTheClass(arr))
+print(SortingTechniques.bubbleSort(arr))
+```
+
 
 
 
