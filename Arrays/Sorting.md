@@ -48,6 +48,13 @@ print(SortingTechniques.testingTheClass(arr))
 print(SortingTechniques.bubbleSort(arr))
 ```
 
+Note: We can optimize this by stopping the loop if there were no swaps on the first iteration. But that is self-explanatory and doesn't need to be explained.
+
+Time Complexities :-
+- Worst Case: O(n^2) - In an array of 5 elements 
+
+
+
 
 
 
