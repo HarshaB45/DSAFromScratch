@@ -172,8 +172,11 @@ Okay, this one. It's very self explanatory as to how it sorts. It just drags the
 Pointer iterations - 
 
 0 1 -> n
+
 1 2 -> n 
+
 n - 1 n -> n
+
 
 
 
