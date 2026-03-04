@@ -155,21 +155,16 @@ print(SortingTechniques.insertionSort(arr))
 This is a slight improvement on Bubble Sort, and the time complexities are the same. 
 
 Best Case is when the array is sorted, and the Worst Case is when the array is sorted in reverse.
-
 Now how can we understand the worst case? What does 'reverse order' imply?
-
 'Reverse order' implies that the highest element is at the beginning. In insertion sort, the smallest elements are inserted before the pivot element
-
 in order to keep the array (until pivot) sorted. Picture a queue waiting to get a coffee. Insertion sort is like sending all of the people in the 
-
 front of the queue to the back. Kind of is a hassle.
 
 
 This is how I picture it. This is kind of building a pyramid of legos, where the legos are of different sizes. But we know that, the bottom lego has 
-
 to be the longest and the top lego has to be the shortest. We are trying to ensure that the **bottom section BEFORE the pivot** is always organized
-
 in order. Pretty easy when it's layed out organized at all times, and you have to insert one lego to keep the order.
+
 
 
 
