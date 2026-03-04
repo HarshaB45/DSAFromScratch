@@ -29,15 +29,15 @@ class SortingTechniques:
     def testingTheClass(arr):
         return arr
     
-    def bubbleSort(arr):
+    def <span style="color: yellow;">bubbleSort</span>(arr):
         curr = len(arr) - 1
         while curr >= 1:
             for i in range(0, curr):
                 if arr[i + 1] < arr[i]:
                     arr[i], arr[i + 1] = arr[i + 1], arr[i]
             curr -= 1
-        return arr      ```
-            
+        return arr
+      
         
         
 # An array defined for sorting 
