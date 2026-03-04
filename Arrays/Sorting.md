@@ -165,6 +165,16 @@ This is how I picture it. This is kind of building a pyramid of legos, where the
 to be the longest and the top lego has to be the shortest. We are trying to ensure that the **bottom section BEFORE the pivot** is always organized
 in order. Pretty easy when it's layed out organized at all times, and you have to insert one lego to keep the order.
 
+## Selection Sort
+
+Okay, this one. It's very self explanatory as to how it sorts. It just drags the minimum to the beginning of the array. It's very simple to write the algorithm, and as for the pointer iterations, its just from start to end. 
+
+Pointer iterations - 
+
+0 1 -> n
+1 2 -> n 
+n - 1 n -> n
+
 
 
 
