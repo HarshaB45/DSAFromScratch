@@ -177,6 +177,66 @@ Pointer iterations -
 
 n - 1 n -> n
 
+```
+import random
+
+class SortingTechniques:
+    def testingTheClass(arr):
+        return arr
+
+    
+    def bubbleSort(arr):
+        curr = len(arr) - 1
+        while curr >= 1:
+            for i in range(0, curr):
+                if arr[i + 1] < arr[i]:
+                    arr[i], arr[i + 1] = arr[i + 1], arr[i]
+            curr -= 1
+        return arr
+        
+    def insertionSort(arr):
+        for i in range(1, 5):
+            j = i
+            while j > 0 and arr[j - 1] > arr[j]:
+                arr[j - 1], arr[j] = arr[j], arr[j - 1]
+                j = j - 1
+            print(arr)
+                
+    def selectionSort(arr):
+        
+        for i in range(0, 7):
+            currentMinimumIndex = i
+            for j in range(i, 7):
+                if arr[j] < arr[currentMinimumIndex]:
+                    currentMinimumIndex = j
+                
+            arr[currentMinimumIndex], arr[i] = arr[i], arr[currentMinimumIndex]
+            print(arr)
+            
+            
+        
+        
+        
+# An array defined for sorting 
+arr = [random.randint(1, 100) for _ in range(5)]
+bruteArr = [2, 8, 5, 3, 9, 4, 1]
+print(SortingTechniques.testingTheClass(arr))
+print(SortingTechniques.selectionSort(bruteArr))
+```
+
+I mean, look at this output!
+[1, 8, 5, 3, 9, 4, 2]
+[1, 2, 5, 3, 9, 4, 8]
+[1, 2, 3, 5, 9, 4, 8]
+[1, 2, 3, 4, 9, 5, 8]
+[1, 2, 3, 4, 5, 9, 8]
+[1, 2, 3, 4, 5, 8, 9]
+[1, 2, 3, 4, 5, 8, 9]
+
+
+
+
+
 
 
 
