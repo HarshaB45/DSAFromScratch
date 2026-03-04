@@ -241,6 +241,13 @@ I mean, look at this output!
 [1, 2, 3, 4, 5, 8, 9]
 
 
+Time Complexities :-
+- No matter what, the time complexity is O(n^2). For the rest of the algorithms, I had to confirm the time complexities for safety, but this one is too obvious.
+- Even if the array is already sorted, we will have to traverse the entire array regardless, in order to find the next minimum in the next iteration. 
+
+Now, I don't think this requires a visual, but I'll give one anyway. It's like if you had a bookshelf of books with uneven heights, and you wanted to organize it in increasing heights. What selection sort does is, it checks all of the books until the end for every iteration, takes the shortest book out, and puts it in the very beginning. Once the shortest is organized, we can pick the second shortest and so on. It's literally a grab-and-put type situation.
+
+
 
 
 
