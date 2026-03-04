@@ -23,6 +23,7 @@ comparison.
 Idea - Compare adjacent indices. If the current index is greater than the next index, swap them so that the current index goes closer to the end position of the array.
 
 Pointer iterations - 
+
 0 1 
 
 1 2 
@@ -95,6 +96,7 @@ This was pretty confusing to me at first, but I think this is best understood by
 Idea - Assume the array is sorted and set a pointer to the second element. Traverse through the sorted array and find the position in which we can insert the current index element into the sorted array to keep it sorted. 
 
 Pointer iterations - 
+
 1 0 
 
 
@@ -117,6 +119,7 @@ Pointer iterations -
 4 1 
 
 4 0
+
 
 
 
