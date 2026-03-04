@@ -225,13 +225,21 @@ print(SortingTechniques.selectionSort(bruteArr))
 ```
 
 I mean, look at this output!
+
 [1, 8, 5, 3, 9, 4, 2]
+
 [1, 2, 5, 3, 9, 4, 8]
+
 [1, 2, 3, 5, 9, 4, 8]
+
 [1, 2, 3, 4, 9, 5, 8]
+
 [1, 2, 3, 4, 5, 9, 8]
+
 [1, 2, 3, 4, 5, 8, 9]
+
 [1, 2, 3, 4, 5, 8, 9]
+
 
 
 
