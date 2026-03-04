@@ -51,7 +51,19 @@ print(SortingTechniques.bubbleSort(arr))
 Note: We can optimize this by stopping the loop if there were no swaps on the first iteration. But that is self-explanatory and doesn't need to be explained.
 
 Time Complexities :-
-- Worst Case: O(n^2) - In an array of 5 elements 
+
+Best - O(n)
+Average - O(n^2)
+Worst - O(n^2)
+
+The Best Case can be obtained when **no swaps are made** on the first iteration (implying that the array is already sorted).
+The Average Case is n <= x <= n^2, and since the array cannot be preempted because there is no intelligence to determine whether its sorted at the instance, the complexity is O(n^2).
+The Worst Case is O(n^2) (requiring the maximum number of swaps) as both of the pointers must traverse from 0 to curr for every iteration.
+
+Now, this may be difficult to understand intuitively, so this is how I picture it. The algorithm works to put the **highest element at the top** after every iteration. We can say for sure that, the last position in the array will be filled with the highest element in the array after all of the traversals. 
+
+Therefore, if we traversed 'n - 1' times, we could sort 'n - 1' elements from beginning to end. Pretty simple when it's layed out like that.
+
 
 
 
