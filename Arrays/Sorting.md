@@ -22,6 +22,21 @@ comparison.
 
 Idea - Compare adjacent indices. If the current index is greater than the next index, swap them so that the current index goes closer to the end position of the array.
 
+Pointer iterations - 
+0 1 
+1 2 
+2 3 
+3 4
+
+0 1 
+1 2
+2 3
+
+0 1
+1 2
+
+0 1
+
 ```
 import random
 
@@ -67,6 +82,25 @@ Therefore, if we traversed 'n - 1' times, we could sort 'n - 1' elements from be
 ## Insertion Sort
 
 This was pretty confusing to me at first, but I think this is best understood by performing manual dry runs. I enjoy this one though, it's very interesting. It doesn't immediately make sense why it works, but after reading this, it'll make sense.
+
+Idea - Assume the array is sorted and set a pointer to the second element. Traverse through the sorted array and find the position in which we can insert the current index element into the sorted array to keep it sorted. 
+
+Pointer iterations - 
+1 0 
+
+2 1 
+2 0 
+
+3 2 
+3 1 
+3 0
+
+4 3 
+4 2
+4 1 
+4 0
+
+
 
 
 
