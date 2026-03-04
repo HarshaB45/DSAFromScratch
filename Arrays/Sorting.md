@@ -29,7 +29,7 @@ class SortingTechniques:
     def testingTheClass(arr):
         return arr
     
-    def <span style="color: yellow;">bubbleSort</span>(arr):
+    def bubbleSort(arr):
         curr = len(arr) - 1
         while curr >= 1:
             for i in range(0, curr):
@@ -46,6 +46,7 @@ arr = [random.randint(1, 100) for _ in range(5)]
 print(SortingTechniques.testingTheClass(arr))
 print(SortingTechniques.bubbleSort(arr))
 ```
+
 
 
 
