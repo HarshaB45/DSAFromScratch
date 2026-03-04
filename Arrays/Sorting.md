@@ -120,6 +120,58 @@ Pointer iterations -
 
 4 0
 
+```
+import random
+
+class SortingTechniques:
+    def testingTheClass(arr):
+        return arr
+
+    
+    def bubbleSort(arr):
+        curr = len(arr) - 1
+        while curr >= 1:
+            for i in range(0, curr):
+                if arr[i + 1] < arr[i]:
+                    arr[i], arr[i + 1] = arr[i + 1], arr[i]
+            curr -= 1
+        return arr
+        
+    def insertionSort(arr):
+        for i in range(1, 5):
+            j = i
+            while j > 0 and arr[j - 1] > arr[j]:
+                arr[j - 1], arr[j] = arr[j], arr[j - 1]
+                j = j - 1
+            print(arr)
+        
+# An array defined for sorting 
+arr = [random.randint(1, 100) for _ in range(5)]
+
+print(SortingTechniques.testingTheClass(arr))
+print(SortingTechniques.insertionSort(arr))
+```
+
+This is a slight improvement on Bubble Sort, and the time complexities are the same. 
+
+Best Case is when the array is sorted, and the Worst Case is when the array is sorted in reverse.
+
+Now how can we understand the worst case? What does 'reverse order' imply?
+
+'Reverse order' implies that the highest element is at the beginning. In insertion sort, the smallest elements are inserted before the pivot element
+
+in order to keep the array (until pivot) sorted. Picture a queue waiting to get a coffee. Insertion sort is like sending all of the people in the 
+
+front of the queue to the back. Kind of is a hassle.
+
+
+This is how I picture it. This is kind of building a pyramid of legos, where the legos are of different sizes. But we know that, the bottom lego has 
+
+to be the longest and the top lego has to be the shortest. We are trying to ensure that the **bottom section BEFORE the pivot** is always organized
+
+in order. Pretty easy when it's layed out organized at all times, and you have to insert one lego to keep the order.
+
+
 
 
 
