@@ -12,8 +12,12 @@ This Markdown contains:
 - A sufficient explanation as to the **mechanisms** of each sorting technique
 - The meanings and how **time and space complexities** were derived in each instance
 - When and where to use each sorting technique
+- Relevant codes 
 
 ## Bubble Sort
+
+
+
 
 
 
